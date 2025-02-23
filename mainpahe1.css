@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140;
+    margin: 0 auto;
+
+}
+
+.content-item{
+    width: 100%;
+    padding: 2rem;
+}
+
+.content-item img{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #74e44ead;
+}
+
+.content-title{
+    color: rgb(0, 0, 0);
+   
+}
+
+.logo a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+display: flex;
+list-style: none;
+align-items: center;
+}
+
+.menu li {
+margin: 0 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem 0;
+}
+
+.content-top{
+    text-align: center;
+}
+
+.footer-top{
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #9b9b9b;
+    color: white;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+    margin-bottom: 1rem;
+}
+
+.footer-buttom{
+    background-color: rgb(216, 216, 216);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content h1{
+    color: white;
+}
+
+.content {
+    color: white;
+}
+
+.content-title{
+    color: white;
+}
